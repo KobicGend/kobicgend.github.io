@@ -1,0 +1,124 @@
+/* 文章页H1-H6图标样式效果 */
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+    -webkit-animation: ccc 1.6s linear infinite ;
+    animation: ccc 1.6s linear infinite ;
+}
+@-webkit-keyframes ccc {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-1turn);
+        transform: rotate(-1turn)
+    }
+}
+@keyframes ccc {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(-1turn);
+        transform: rotate(-1turn)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* 标题颜色 */
+#content-inner.layout h1::before {
+    color: #ef50a8 ;
+    margin-top: -0.9rem;
+    margin-left: -1.55rem;
+    font-size: 2.5rem; // 1.3
+}
+#content-inner.layout h2::before {
+    color: #fb7061 ;
+    margin-left: -1.35rem;
+    font-size: 1.9rem; // 1.1
+    margin-top: -0.8rem; // -0.12
+}
+#content-inner.layout h3::before {
+    color: #ffbf00 ;
+    margin-left: -1.22rem;
+    font-size: 1.5rem; // 0.95
+    margin-top: -0.6rem; // -0.09
+}
+#content-inner.layout h4::before {
+    color: #a9e000 ;
+    margin-left: -1.05rem;
+    font-size: 1.23rem; // 0.8
+    margin-top: -0.4rem; // -0.09
+}
+#content-inner.layout h5::before {
+    color: #57c850 ;
+    margin-left: -0.9rem;
+    font-size: 1.0rem; // 0.7
+    margin-top: 0.0rem;
+}
+#content-inner.layout h6::before {
+    color: #5ec1e0 ;
+    margin-left: -0.9rem;
+    font-size: 0.9rem; // 0.66
+    margin-top: 0.0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 标题hover样式 */
+#content-inner.layout h1:hover, #content-inner.layout h2:hover, #content-inner.layout h3:hover, #content-inner.layout h4:hover, #content-inner.layout h5:hover, #content-inner.layout h6:hover {
+    color: #49b1f5 ;
+}
+#content-inner.layout h1:hover::before, #content-inner.layout h2:hover::before, #content-inner.layout h3:hover::before, #content-inner.layout h4:hover::before, #content-inner.layout h5:hover::before, #content-inner.layout h6:hover::before {
+    color: #49b1f5 ;
+    -webkit-animation: ccc 3.2s linear infinite ;
+    animation: ccc 3.2s linear infinite ;
+}
+
+
+
+
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+h2 {
+    font-size: 1.9em;
+    font-weight: 500;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+h4 {
+    font-size: 1.23em;
+    font-weight: 500;
+}
+h5 {
+    font-size: 1.0em;
+    font-weight: 500;
+}
+h6 {
+    font-size: 1.0em;
+    font-weight: 500;
+}
+
+
+
