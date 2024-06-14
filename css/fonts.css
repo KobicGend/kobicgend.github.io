@@ -1,1 +1,61 @@
-@font-face{font-family:CaviarDreams;font-weight:400;font-display:swap;src:url(/fonts/CaviarDreams.ttf) format('truetype')}@font-face{font-family:CaviarDreams;font-weight:500;font-display:swap;src:url(/fonts/CaviarDreams_Bold.ttf) format('truetype')}@font-face{font-family:Pingfang;font-weight:400;font-display:swap;src:url(/fonts/Pingfang_Zhun.ttf) format('truetype')}@font-face{font-family:Pingfang;font-weight:500;font-display:swap;src:url(/fonts/Pingfang_Zhonghei.ttf) format('truetype')}@font-face{font-family:Pingfangjian;font-weight:400;font-display:swap;src:url(/fonts/Pingfangjian_Zhun.ttf) format('truetype')}@font-face{font-family:Pingfangjian;font-weight:500;font-display:swap;src:url(/fonts/Pingfangjian_Zhonghei.ttf) format('truetype')}@font-face{font-family:Genkaimincho;font-display:swap;src:url(/fonts/Genkaimincho.ttf) format('truetype')}div{font-weight:400}// 普通元素在引入 400 字重时 h1{font-weight:500}
+@font-face {
+   font-family: 'CaviarDreams';
+   font-weight: 400;
+   font-display: swap;
+   src: url('/fonts/CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'CaviarDreams';
+   font-weight: 500;
+   font-display: swap;
+   src: url('/fonts/CaviarDreams_Bold.ttf') format('truetype');
+}
+
+
+
+@font-face {
+   font-family: 'Pingfang';
+   font-weight: 400;
+   font-display: swap;
+   src: url('/fonts/Pingfang_Zhun.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Pingfang';
+   font-weight: 500;
+   font-display: swap;
+   src: url('/fonts/Pingfang_Zhonghei.ttf') format('truetype');
+}
+
+
+
+@font-face {
+   font-family: 'Pingfangjian';
+   font-weight: 400;
+   font-display: swap;
+   src: url('/fonts/Pingfangjian_Zhun.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Pingfangjian';
+   font-weight: 500;
+   font-display: swap;
+   src: url('/fonts/Pingfangjian_Zhonghei.ttf') format('truetype');
+}
+
+
+
+
+@font-face {
+   font-family: 'Genkaimincho';
+   font-display: swap;
+   src: url('/fonts/Genkaimincho.ttf') format('truetype');
+}
+
+
+
+
+
+div { font-weight: 400; }	// 普通元素在引入 400 字重时
+h1 { font-weight: 500; }	// 标题元素在引入 500 字重时
