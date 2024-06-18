@@ -1,18 +1,1 @@
-$(function(){
-  var NY = Math.round((new Date('03/25/2024 16:20:38')).getTime()/1000); //Date修改为你的建站时间。
-  $('#runtime').flipcountdown({
-    size:"xs",//可以自定义翻页计时器大小。从大到小依次是lg、md、sm、xs。
-    tick:function(){
-      var nol = function(h){
-        return h>9?h:'0'+h;
-      }
-      var	range  	= Math.abs(Math.round((new Date()).getTime()/1000)-NY),
-        secday = 86400, sechour = 3600,
-        days 	= parseInt(range/secday),
-        hours	= parseInt((range%secday)/sechour),
-        min		= parseInt(((range%secday)%sechour)/60),
-        sec		= ((range%secday)%sechour)%60;
-      return nol(days)+' '+nol(hours)+' '+nol(min)+' '+nol(sec);
-    }
-  });
-});
+$(function(){var o=Math.round(new Date("03/25/2024 16:20:38").getTime()/1e3);$("#runtime").flipcountdown({size:"xs",tick:function(){function n(n){return 9<n?n:"0"+n}var t=Math.abs(Math.round((new Date).getTime()/1e3)-o),e=86400,r=3600,a=parseInt(t/e),i=parseInt(t%e/r),u=parseInt(t%e%r/60);return n(a)+" "+n(i)+" "+n(u)+" "+n(t%e%r%60)}})});
