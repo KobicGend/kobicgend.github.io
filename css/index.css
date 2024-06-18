@@ -1657,7 +1657,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: CaviarDreams, Pingfang, Pingfangjian;
+  font-family: AGaramondPro, ZKTQingKJF, ZKTQingK, CaviarDreams, Pingfang, Pingfangjian;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
