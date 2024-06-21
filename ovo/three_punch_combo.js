@@ -1,1 +1,0 @@
-$i=0,$("#start").click(function(){6<=++$i&&($("#start").hide(),$("#stop").show())}),$("#stop").click(function(){alert("这么作？今天别吃了！"),$(this).hide()}),$("#close_banner").click(function(){$("#banner").hide()});
